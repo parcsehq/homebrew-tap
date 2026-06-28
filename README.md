@@ -16,6 +16,7 @@ brew install --cask looq
 brew install --cask mux
 brew install --cask ajar
 brew install --cask tray
+brew install --cask sweeper
 ```
 
 ## Available Casks
@@ -26,3 +27,4 @@ brew install --cask tray
 | `mux` | Automatic priority-based network switching. | <https://parcse.com/mux> |
 | `ajar` | Lid Angle Sync & Keep Awake for AI Agents. | <https://parcse.com/ajar> |
 | `tray` | Browse Claude Code data on your Mac. | <https://parcse.com/tray> |
+| `sweeper` | Uninstall apps cleanly, find orphaned files, and manage login items. | <https://parcse.com/sweeper> |
