@@ -1,6 +1,6 @@
 cask "mux" do
-  version "1.3.6"
-  sha256 "725c888cdc5f9c09123bb4632f0b593f0d0ef7103b0d0f3cac4022bfb1e6d6c7"
+  version "1.3.7"
+  sha256 "fff6448e968fd51a52fa0e34affbd785305f1819ef8096b494531b2f264b3db5"
 
   url "https://releases.parcse.com/mux/#{version}/Mux-#{version}.dmg"
   name "Mux"
