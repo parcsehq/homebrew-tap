@@ -1,6 +1,6 @@
 cask "looq" do
-  version "1.6.2"
-  sha256 "cbd298eac08173ab579c24f1a6619e16510a2f1aa6ac3b7ae3f333ed0b9324e4"
+  version "1.7.0"
+  sha256 "13b4fc9ae64018031c310938991941c8d9aeaeb6cefc1c899ce651487564132a"
 
   url "https://releases.parcse.com/looq/#{version}/Looq-#{version}.dmg"
   name "Looq"
