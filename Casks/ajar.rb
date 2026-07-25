@@ -1,6 +1,6 @@
 cask "ajar" do
-  version "1.2.0"
-  sha256 "061cc482a7cdc91370ac93ed98a54c5528efb88de7ebfa6036bcfbb00944bb48"
+  version "1.2.1"
+  sha256 "b9c61af54698368da884714b7c6c8e441b2e595f270aba4ef6eee52ff2a7a23b"
 
   url "https://releases.parcse.com/ajar/#{version}/Ajar-#{version}.dmg"
   name "Ajar"
