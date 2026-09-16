@@ -1,6 +1,6 @@
-cask "looq" do
-  version "1.7.5"
-  sha256 "1bcca62a9e6081d6b9485320a16145bc8823c90899097101dd6b26190204d1d9"
+cask "looq@beta" do
+  version "1.7.5-beta.60"
+  sha256 "f350eb6d0f231b80dedec40fe2dba429c9f693bb6183928ac825ddfd3f067965"
 
   url "https://releases.parcse.com/looq/#{version}/Looq-#{version}.dmg"
   name "Looq"
@@ -9,15 +9,18 @@ cask "looq" do
 
   livecheck do
     url "https://releases.parcse.com/looq/appcast.xml"
-    # The appcast also carries beta items under sparkle:channel; the Sparkle
-    # strategy does not filter by channel on its own, so pick the newest
-    # default-channel item explicitly. Betas are tracked by looq@beta.
+    # Beta items keep the stable shortVersionString and carry the build in
+    # sparkle:version; the artifact path is <short>-beta.<build>.
     strategy :sparkle do |items|
-      items.find { |item| item.channel.nil? }&.short_version
+      item = items.find { |candidate| candidate.channel == "beta" }
+      next if item.nil?
+
+      "#{item.short_version}-beta.#{item.version}"
     end
   end
 
   auto_updates true
+  conflicts_with cask: "looq"
   depends_on macos: :sonoma
 
   app "Looq.app"
