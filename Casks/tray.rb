@@ -1,6 +1,6 @@
 cask "tray" do
-  version "2.0.0"
-  sha256 "93f230a6b91b1963157ebc9fd52b561ad2a7d45eaec8840b823989c4ac2af663"
+  version "2.1.0"
+  sha256 "64e79e0401f0f174d99f6dbb32ee0be285d2076b66b291b882aba9b8b28edc6a"
 
   url "https://releases.parcse.com/tray/#{version}/Tray-#{version}.dmg"
   name "Tray"
