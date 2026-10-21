@@ -21,7 +21,7 @@ cask "looq@beta" do
 
   auto_updates true
   conflicts_with cask: "looq"
-  depends_on macos: :sequoia
+  depends_on macos: :sonoma
 
   app "Looq.app"
 
