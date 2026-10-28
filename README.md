@@ -17,6 +17,7 @@ brew install --cask mux
 brew install --cask ajar
 brew install --cask tray
 brew install --cask sweeper
+brew install --cask upto
 ```
 
 ## Available Casks
@@ -28,3 +29,4 @@ brew install --cask sweeper
 | `ajar` | Lid Angle Sync & Keep Awake for AI Agents. | <https://parcse.com/ajar> |
 | `tray` | Browse Claude Code data on your Mac. | <https://parcse.com/tray> |
 | `sweeper` | Uninstall apps cleanly, find orphaned files, and manage login items. | <https://parcse.com/sweeper> |
+| `upto` | Every app on your Mac, up to date. | <https://macupto.com> |
