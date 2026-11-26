@@ -1,6 +1,6 @@
 cask "upto" do
-  version "1.4.1"
-  sha256 "654e3d25fba24ef649966b226f53af887765be6ff651138df93d99f1d20e3a69"
+  version "1.4.2"
+  sha256 "02b44954c5c9cfdbfb88c4de743df1233c12336590d3fdf31ebc3311c5761246"
 
   url "https://releases.parcse.com/upto/#{version}/Upto-#{version}.dmg"
   name "Upto"
