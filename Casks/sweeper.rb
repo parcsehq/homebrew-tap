@@ -1,6 +1,6 @@
 cask "sweeper" do
-  version "1.6.2"
-  sha256 "26f498d383c81f515cf95292a2c399780efdf037eb131802ecd80388b86b69a2"
+  version "1.6.3"
+  sha256 "f0ed951c6a21625039253c28154529f57274e13cc55279a6b00e00c7e2ac8e90"
 
   url "https://releases.parcse.com/sweeper/#{version}/Sweeper-#{version}.dmg"
   name "Sweeper"
